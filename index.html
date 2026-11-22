@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StrangeFawkes — Independent ventures, one house</title>
+<meta name="description" content="StrangeFawkes is the home of a small family of independent ventures. First through the door: Dark Money, the cashback club that pays members 70% of the commission.">
+<style>
+  :root{
+    --bg:#0b0e13; --panel:#12161f; --line:#232a38; --text:#e8e6df; --muted:#9aa3b2;
+    --gold:#d4af37; --gold-soft:#b8963e;
+  }
+  *{box-sizing:border-box; margin:0; padding:0}
+  body{background:var(--bg); color:var(--text); font-family:Georgia,'Times New Roman',serif; min-height:100vh; display:flex; flex-direction:column}
+  .wrap{max-width:880px; width:100%; margin:0 auto; padding:64px 24px 40px; flex:1}
+  .mark{font-size:15px; letter-spacing:.35em; text-transform:uppercase; color:var(--gold); text-align:center}
+  h1{font-size:52px; font-weight:normal; text-align:center; margin:18px 0 10px; letter-spacing:.02em}
+  h1 .thin{color:var(--muted)}
+  .tagline{text-align:center; color:var(--muted); font-size:19px; font-style:italic; margin-bottom:56px}
+  .ventures{display:grid; gap:18px}
+  .card{display:block; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:28px 30px; text-decoration:none; color:var(--text); transition:border-color .2s, transform .2s}
+  .card:hover{border-color:var(--gold-soft); transform:translateY(-2px)}
+  .card .kicker{font-size:12px; letter-spacing:.3em; text-transform:uppercase; color:var(--gold); margin-bottom:8px; font-family:Helvetica,Arial,sans-serif}
+  .card h2{font-size:28px; font-weight:normal; margin-bottom:8px}
+  .card p{color:var(--muted); font-size:16px; line-height:1.55}
+  .card .go{margin-top:14px; font-family:Helvetica,Arial,sans-serif; font-size:14px; color:var(--gold)}
+  .soon{border:1px dashed var(--line); border-radius:14px; padding:22px 30px; color:var(--muted); font-style:italic; font-size:16px; text-align:center}
+  footer{border-top:1px solid var(--line); padding:22px 24px; text-align:center; color:var(--muted); font-size:14px; font-family:Helvetica,Arial,sans-serif}
+  footer a{color:var(--gold); text-decoration:none}
+  @media (max-width:560px){ h1{font-size:38px} .wrap{padding-top:44px} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mark">Est. 2026 · Newburgh, Indiana</div>
+    <h1>Strange<span class="thin">Fawkes</span></h1>
+    <p class="tagline">One house, a family of independent ventures.</p>
+
+    <div class="ventures">
+      <a class="card" href="https://darkmoney.strangefawkes.com">
+        <div class="kicker">Venture No. 1 — Live</div>
+        <h2>Dark Money</h2>
+        <p>The cashback club for agent-assisted shopping. Brands you won't find in store, and 70% of the commission goes to the member — not the middleman.</p>
+        <div class="go">Visit Dark Money →</div>
+      </a>
+      <div class="soon">More ventures are being built behind this door.</div>
+    </div>
+  </div>
+  <footer>StrangeFawkes · <a href="mailto:james@strangefawkes.com">james@strangefawkes.com</a></footer>
+</body>
+</html>
